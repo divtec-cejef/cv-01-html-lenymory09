@@ -40,8 +40,10 @@ racine-de-mon-site
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 * Ne pas oublier d'ajouter l'**icône de site**, appelée favicon.
+
 ```html
-<link rel="icon" href="icone.ico">
+
+<link rel="icon" href="Images/icone.ico">
 ```
 * Charger le fichier CSS des polices avant le fichier CSS des styles de base.
 * Pas d'espaces ni de majuscules, ni de caractères spéciaux dans les id ou 
