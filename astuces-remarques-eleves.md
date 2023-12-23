@@ -41,7 +41,7 @@ racine-de-mon-site
 ```
 * Ne pas oublier d'ajouter l'**icône de site**, appelée favicon.
 ```html
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="icone.ico">
 ```
 * Charger le fichier CSS des polices avant le fichier CSS des styles de base.
 * Pas d'espaces ni de majuscules, ni de caractères spéciaux dans les id ou 
