@@ -1,5 +1,10 @@
 ul li {
-    color: blue;
+    color: whitesmoke;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    background-color: black;
 }
 
 nav li {
@@ -19,20 +24,27 @@ footer {
 }
 header {
     padding: 30px;
+    text-align: center;
 }
 
 footer {
     margin: 10px;
 }
+
 h1, h1 + p {
     text-align: center;
-    color: blue;
+    color: greenyellow;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: grey;
 }
 
+img {
+    border: 7px solid cadetblue;
+    border-radius: 50%;
+}
 /* open-sans-regular - latin_math_symbols */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
