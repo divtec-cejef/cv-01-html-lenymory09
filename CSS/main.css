@@ -5,33 +5,40 @@ header {
 
 img {
     border: 7px solid cadetblue;
-    border-radius: 50%;
     margin-top: 1rem;
+    display: inline-block;
+    box-shadow: 10px 10px 0 #0496FF;
 }
 
 nav li {
     font-size: 1.5em;
-    display: inline-block;
-    width: 40vw;
+    display: block;
+    width: 60vw;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
 }
 
-nav li:hover {
+nav a:hover {
     background-color: whitesmoke;
+    border-bottom: 6px solid blueviolet;
+    border-radius: 5px;
 }
 
 nav ul {
-  padding: 0;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 ul li {
     color: lightskyblue;
-    width: auto;
     margin-bottom: 0.8rem;
     background-color: black;
     border: cadetblue solid 3px;
     padding: 0.5vh 1vw 0.7vh;
-    border-radius: 10px;
+    border-radius: 4px;
+    box-shadow: 7px 3px 3px chartreuse;
 }
 
 h2 + ul {
@@ -60,31 +67,47 @@ a {
     font-size: 1.3rem;
 }
 
+#experiences + ul li, #formation + ul li {
+  box-shadow: 7px 3px 3px red;
+}
+
 h1, h1 + p {
     text-align: center;
-    color: greenyellow;
+    color: white;
+    text-shadow: 1px 1px 0 chartreuse;
 }
 
 h2 {
     margin-top: 40px;
-    color: #F75C03;
+    color: white;
+    text-shadow: 1px 2px 0 #F75C03;
+}
+
+#formation + ul {
+    margin-bottom: 40px;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
-    max-width: 1000px;
+    font-weight: 400;
+    max-width: 700px;
     width: 80vw;
     margin-top: 10vh;
     margin-right: auto;
     margin-left: auto;
-    background-color: #35393C;
     padding-left: 1vw;
     padding-right: 1vw;
+    hyphens: auto;
+    text-align: justify;
+    background: url("https://image.api.playstation.com/vulcan/img/rnd/202011/0411/QgJxoWfABXJ6qKpJORB7Lb1I.png")
+        center / cover
+        no-repeat
+        #666;
+    background-blend-mode: multiply;
 }
 
-
-#formation + ul {
-    margin-bottom: 40px;
+strong {
+    font-weight: 700;
 }
 
 footer {
@@ -92,12 +115,15 @@ footer {
     color: #FFFEFF;
     font-size: 16px;
     background-color: #000300;
-    border-radius: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
     text-align: center;
     max-width: 400px;
+    border: 6px solid #777777;
+    border-right: 6px solid #555555;
+    border-bottom: 6px solid #555555;
 }
+
 /* open-sans-regular - latin_math_symbols */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
