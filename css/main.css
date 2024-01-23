@@ -68,7 +68,7 @@ a {
 }
 
 #experiences + ul li, #formation + ul li {
-  box-shadow: 7px 3px 3px red;
+  box-shadow: 7px 3px 0 red;
 }
 
 h1, h1 + p {
