@@ -19,15 +19,23 @@
     src: url('../fonts/open-sans-v40-latin_math_symbols-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/*********************************************
+                REGLES GENERALES
+**********************************************/
+img {
+    max-width: 100%;
+}
+
+/*************************************************
+                      HEADER
+ ************************************************/
 header {
     text-align: center;
     padding: 1vw;
 }
 
-img {
+.photo-leny {
     border: 7px solid cadetblue;
-    margin-top: 1rem;
-    display: inline-block;
     box-shadow: 10px 10px 0 #0496FF;
 }
 
@@ -51,7 +59,6 @@ nav ul {
     margin-top: 40px;
     padding: 10px;
 }
-
 ul li {
     color: lightskyblue;
     margin-bottom: 0.8rem;
@@ -111,15 +118,7 @@ h2 {
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    max-width: 700px;
-    width: 80vw;
-    margin-top: 10vh;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    hyphens: auto;
-    text-align: justify;
+    hyphens: auto; /**** Se souvenir de ça ****/
     background: url("https://image.api.playstation.com/vulcan/img/rnd/202011/0411/QgJxoWfABXJ6qKpJORB7Lb1I.png")
         center / cover
         no-repeat
